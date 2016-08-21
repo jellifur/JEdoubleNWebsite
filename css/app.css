@@ -1,0 +1,38 @@
+/*nav { background: seagreen; }*/
+
+nav {
+  display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	-webkit-box-align: center;
+
+	align-items: center;
+}
+
+#name {
+  font-weight: 300;
+  /*background: blue;*/
+  font-size: 2.3em;
+  left: 0;
+  cursor: default;
+}
+
+#menu {
+  right: 0;
+  /*background: red;*/
+
+}
+
+.menu-item {
+  padding: 7px;
+  border: 0.2em solid transparent;
+  font-size: 1.1em;
+  margin-left: auto;
+}
+
+.menu-item:hover {
+  border: 0.2em solid #78909C;
+}
