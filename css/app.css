@@ -1,38 +1,23 @@
-/*nav { background: seagreen; }*/
-
-nav {
-  display: -ms-flexbox;
-	display: -webkit-flex;
-	display: flex;
-
-	-ms-flex-align: center;
-	-webkit-align-items: center;
-	-webkit-box-align: center;
-
-	align-items: center;
-}
-
 #name {
   font-weight: 300;
-  /*background: blue;*/
   font-size: 2.3em;
-  left: 0;
   cursor: default;
+  display: inline-block;
 }
 
 #menu {
-  right: 0;
-  /*background: red;*/
-
+  float: right;
+  margin: 10px;
 }
 
 .menu-item {
-  padding: 7px;
-  border: 0.2em solid transparent;
+  padding: 3px 6px;
+  border: 0.16em solid transparent;
   font-size: 1.1em;
   margin-left: auto;
+  cursor: pointer;
 }
 
 .menu-item:hover {
-  border: 0.2em solid #78909C;
+  border: 0.16em solid #78909C;
 }
