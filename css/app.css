@@ -29,3 +29,5 @@
   color: #546E7A;
   box-shadow: none;
 }
+
+#menu .btn-group.open .dropdown-toggle { box-shadow: none; }
