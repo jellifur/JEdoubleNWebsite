@@ -1,28 +1,26 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Jenn Chan</title>
-    </head>
-
-    <body>
-        <nav>
-            <div id="name">Jenn Chan</div>
-            <div id="menu">
-
-                <div class="btn-group" dropdown [(isOpen)]="status.isopen">
-                    <button class="menu-item" type="button" dropdownToggle [disabled]="disabled">
-                        UX Research <span class="caret"></span>
-                    </button>
-                    <ul dropdownMenu role="menu" aria-labelledby="single-button">
-                        <li role="menuitem"><a class="dropdown-item" href="#">Project 0</a></li>
-                        <li role="menuitem"><a class="dropdown-item" href="#">Project 1</a></li>
-                        <li role="menuitem"><a class="dropdown-item" href="#">Project 2</a></li>
-                    </ul>
-                </div>
-
-                <span class="menu-item">Resume</span>
-                <span class="menu-item">Contact</span>
+<div id="post-it">
+    <nav>
+        <div id="name">Jenn Chan</div>
+        
+        <div id="menu">
+            <div class="btn-group" dropdown [(isOpen)]="status.isopen">
+                <button class="menu-item" type="button" dropdownToggle [disabled]="disabled">
+                    UX Projects <span class="caret"></span>
+                </button>
+                <ul dropdownMenu role="menu" aria-labelledby="single-button">
+                    <li role="menuitem"><a class="dropdown-item" href="#">Seniors with Pets</a></li>
+                    <li role="menuitem"><a class="dropdown-item" href="#">Email Usability Test </a></li>
+                    <li role="menuitem"><a class="dropdown-item" href="#">Education Data-Vis</a></li>
+                </ul>
             </div>
-        </nav>
-    </body>
-</html>
+
+            <span class="menu-item">Resume</span>
+            <span class="menu-item">Contact</span>
+        </div>
+    </nav>
+
+    <div id="about-me">
+        <div class="display-2">About Me</div>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus mattis libero id diam auctor fermentum. Etiam dictum, mi at ultricies congue, mauris erat eleifend enim, vel elementum erat mi nec purus. Fusce pharetra felis a fermentum lobortis. Vestibulum aliquam porta nulla nec dignissim. Curabitur at mi maximus, aliquam libero vel, venenatis eros. Aliquam quis sollicitudin sem. Mauris id porttitor orci. Phasellus eu tincidunt ante. Donec vel maximus lectus. Sed ornare, nulla nec sodales mollis, neque nisi fermentum tortor, sed ullamcorper dui nibh vel mi. Praesent in faucibus mi. Donec faucibus massa dui. Aliquam sodales libero vitae rutrum accumsan.</div>
+
+</div>
