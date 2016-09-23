@@ -7,7 +7,8 @@
     <!-- Load CSS -->
     <link rel="stylesheet" href="library/css/bootstrap.min.css">
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="css/CommonStyles.css">
+    <link rel="stylesheet" href="css/commonStyles.css">
+    <link rel="stylesheet" href="css/loader.css">
 
     <!--  Load libraries -->
      <!-- Polyfill(s) for older browsers -->
@@ -27,7 +28,11 @@
   <body>
     <app-root>
       <div class="center-container">
-        <img src="../assets/icons/loading.svg" alt="Loading...">
+        <div class="loader">
+          <svg class="circular" viewBox="25 25 50 50">
+            <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10"/>
+          </svg>
+        </div>
       </div>
     </app-root>
   </body>
