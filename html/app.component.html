@@ -1,26 +1,37 @@
-<div id="post-it">
-    <nav>
-        <div id="name">Jenn Chan</div>
-        
-        <div id="menu">
-            <div class="btn-group" dropdown [(isOpen)]="status.isopen">
-                <button class="menu-item" type="button" dropdownToggle [disabled]="disabled">
-                    UX Projects <span class="caret"></span>
-                </button>
-                <ul dropdownMenu role="menu" aria-labelledby="single-button">
-                    <li role="menuitem"><a class="dropdown-item" href="#">Seniors with Pets</a></li>
-                    <li role="menuitem"><a class="dropdown-item" href="#">Email Usability Test </a></li>
-                    <li role="menuitem"><a class="dropdown-item" href="#">Education Data-Vis</a></li>
-                </ul>
-            </div>
+<nav>
+    <ul class="nav nav-pills">
+        <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Projects
+            <span class="caret"></span></a>
+            <ul class="dropdown-menu box-shadow">
+                <li><a href="#">KDE</a></li>
+                <li><a href="#">IV Calc</a></li>
+            </ul>
+        </li>
 
-            <span class="menu-item">Resume</span>
-            <span class="menu-item">Contact</span>
+        <li role="presentation"><a href="#">Resume</a></li>
+
+        <li role="presentation"><a href="#">Contact</a></li>
+    </ul>
+</nav>
+
+<section class="content flex">
+    <div id="about-me-container">
+        <div class="header box-shadow">
+            <header class="name"> Jenn Chan </header>
+            <header class="title"> UX Designer + Software Developer </header>
         </div>
-    </nav>
 
-    <div id="about-me">
-        <div class="display-2">About Me</div>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus mattis libero id diam auctor fermentum. Etiam dictum, mi at ultricies congue, mauris erat eleifend enim, vel elementum erat mi nec purus. Fusce pharetra felis a fermentum lobortis. Vestibulum aliquam porta nulla nec dignissim. Curabitur at mi maximus, aliquam libero vel, venenatis eros. Aliquam quis sollicitudin sem. Mauris id porttitor orci. Phasellus eu tincidunt ante. Donec vel maximus lectus. Sed ornare, nulla nec sodales mollis, neque nisi fermentum tortor, sed ullamcorper dui nibh vel mi. Praesent in faucibus mi. Donec faucibus massa dui. Aliquam sodales libero vitae rutrum accumsan.</div>
-
-</div>
+        <main id="about-container" class="flex"> 
+            <article id="about-me" class="box-shadow">
+                <p>Hello!</p>
+                <p>I'm Jenn. I love web development, user experience design, 
+                    and usability testing&mdash;basically anything that would create happy users.</p>
+                <p>My website is currently under construction. Please check back later for more content
+                    and functional links.</p>
+                <p>:)</p>
+            </article>
+            <img src="../assets/images/jennchan.jpg" alt="Jenn Chan Image" id="about-img" class="box-shadow"/>
+        </main>
+    </div>
+</section>

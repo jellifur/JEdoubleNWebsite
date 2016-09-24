@@ -42,3 +42,5 @@ typings
 # js files transcribed from typescript
 app/*.js
 app/*.js.map
+
+.DS_Store

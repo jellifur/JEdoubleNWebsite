@@ -1,65 +1,57 @@
-#post-it {
-  /* placeholder image. Need to take a better one */
-  background-image: url("../assets/images/post-it.png"); 
-  background-repeat: no-repeat;
-  background-size: cover;
-
-  width: 100%;
-  height: 100%;
-}
-
 nav {
-  padding: 1.0em 2.0em;
+    position: absolute;
+    right: 0;
+    padding: 15px 40px;
+    font-size: 1.3em;
 }
 
-#name {
-  font-weight: 300;
-  font-size: 2.3em;
-  cursor: default;
-  display: inline-block;
+nav a { color: #3F51B5; }
+nav a:focus, a:hover {
+    color: #6775c4;
 }
 
-#menu {
-  float: right;
-  margin: 10px;
+.nav>li>a {
+	padding: 10px 5px 3px 5px;
+	margin: 0 10px;
 }
 
-.menu-item {
-  padding: 3px 6px;
-  font-size: 1.1em;
-  margin-left: auto;
-  cursor: pointer;
+.nav>li>a:focus, .nav>li>a:hover { 
+	background-color: transparent;
+  color: #6775c4;
 }
 
-.menu-item:hover { color: #546E7A; }
+.nav-pills>li>a { border-radius: 0; }
 
-#menu button {
-  border: none;
-  background: transparent;
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+  color: #6775c4;
+  background-color: transparent;
 }
 
-#menu button:active,
-#menu button:focus {
-  color: #546E7A;
-  box-shadow: none;
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover { background-color: transparent; }
+
+.dropdown-menu {
+	border-radius: 2px;
+	margin-left: 10px;
+  background-color: #FAFAFA;
 }
 
-#menu .btn-group.open .dropdown-toggle { box-shadow: none; }
-
-#menu .dropdown-menu {
-  border-radius: 2px;
-  border-color: #EEEEEE;
-}
-
-#menu .dropdown-menu>li>a { color: #78909C; }
-
-/* ==================== ABOUT ME ==================== */
+#about-container { flex-wrap: wrap; }
 
 #about-me {
-  border-radius: 2px;
-  background-color: rgba(0, 0, 0, 0.1);
-  width: 35%;
+	margin-top: 20px;
+	margin-right: 20px;
+	padding: 20px;
+	border-radius: 2px;
+	background-color: #FAFAFA;
+	color: #263238;
+  width: 500px;
   min-width: 300px;
-  margin: 40px 0 0 130px;
-  padding: 1em;
 }
+
+#about-img {
+	border-radius: 2px;
+	margin-top: 20px;
+  height: 300px;
+}
+
+#about-me-container { width: 770px; }
