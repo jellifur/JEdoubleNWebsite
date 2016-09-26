@@ -43,14 +43,21 @@ nav a:focus, a:hover {
 	border-radius: 2px;
 	background-color: #FAFAFA;
 	color: #263238;
-  width: 500px;
-  min-width: 300px;
+  max-width: 500px;
+  /*  min-width: 300px; */
 }
 
 #about-img {
-	border-radius: 2px;
-	margin-top: 20px;
-  height: 300px;
+  display: none;
+}
+
+@media screen and (min-width: 700px) {
+  #about-img {
+    display: initial;
+	  border-radius: 2px;
+	  margin-top: 20px;
+    height: 300px;
+  }
 }
 
 #about-me-container { width: 700px; }
