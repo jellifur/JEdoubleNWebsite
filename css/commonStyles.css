@@ -1,5 +1,14 @@
 body { background-color: #E8EAF6; }
 
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 5px;
+  font-size: 1.3rem;
+}
+
 .flex { 
 	display: -webkit-box;
   display: -moz-box;
@@ -9,12 +18,6 @@ body { background-color: #E8EAF6; }
 }
 
 .box-shadow { box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23); }
-
-.center-container {
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-}
 
 .content { 
   align-items: center;
@@ -39,9 +42,9 @@ body { background-color: #E8EAF6; }
 }
 
 .name {
-	font-size: 2.5em;
+	font-size: 2.5rem;
 }
 
 .title {
-	font-size: 1.5em;
+	font-size: 1.5rem;
 }
