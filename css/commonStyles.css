@@ -1,9 +1,4 @@
-body { background-color: #E8EAF6; }
-
-footer {
-  text-align: center;
-  font-size: 1.3rem;
-}
+body { background-color: #FAFAFA; }
 
 .flex { 
 	display: -webkit-box;
@@ -18,7 +13,7 @@ footer {
 .content { 
   align-items: center;
   position: relative;
-  top: 110px;
+  top: 5%;
   justify-content: center;
 }
 
@@ -29,12 +24,4 @@ footer {
 	padding: 20px;
   min-width: 300px;
   display: inline-block;
-}
-
-.name {
-	font-size: 2.5rem;
-}
-
-.title {
-	font-size: 1.5rem;
 }

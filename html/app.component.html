@@ -1,23 +1,25 @@
 <nav>
+    <header id="name"> JENN CHAN </header>
     <ul class="nav nav-pills">
         <li class="btn-group" dropdown>
-            <button id="single-button" type="button" class="btn btn-primary" dropdownToggle [disabled]="disabled">
-            Button dropdown <span class="caret"></span>
+            <button id="project-button" type="button" class="btn btn-primary" dropdownToggle [disabled]="disabled">
+            UX PROJECTS <span class="caret"></span>
             </button>
             <ul dropdownMenu role="menu" aria-labelledby="single-button">
             <li role="menuitem"><a class="dropdown-item" href="#">Senior Pet-Owners</a></li>
             <li role="menuitem"><a class="dropdown-item" href="#">Mobile Email App</a></li>
+            <li role="menuitem"><a class="dropdown-item" href="#">Data Visualization</a></li>
             </ul>
         </li>
 
-        <li role="presentation"><a href="/jenn_resume.pdf">Resume</a></li>
+        <li role="presentation"><a href="/jenn_resume.pdf">RESUME</a></li>
 
-        <li role="presentation"><a href="#">Contact</a></li>
+        <li role="presentation"><a href="#">CONTACT</a></li>
     </ul>
 </nav>
 
 <router-outlet></router-outlet>
 
-<footer>
+<footer class="about-me-footer">
     &copy; 2016 Design by Jenn Chan using&nbsp;<a href="https://angular.io/">Angular 2</a>.
 </footer>

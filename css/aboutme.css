@@ -1,6 +1,9 @@
-.container {
-  height: 96%;
-  width: 100%;
+#about-me-container {
+    background-image: url("../assets/images/jenn_table.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 92%;
+    width: 100%;
 }
 
 #about-container { flex-wrap: wrap; }
@@ -11,7 +14,7 @@
 	border-radius: 2px;
 	background-color: #FAFAFA;
 	color: #263238;
-  max-width: 500px;
+    max-width: 500px;
 }
 
 #about-img {
@@ -26,5 +29,3 @@
     height: 300px;
   }
 }
-
-#about-me-container { width: 700px; }
