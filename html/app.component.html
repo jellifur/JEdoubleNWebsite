@@ -1,11 +1,12 @@
 <nav>
     <ul class="nav nav-pills">
-        <li class="dropdown">
-            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Projects
-            <span class="caret"></span></a>
-            <ul class="dropdown-menu box-shadow">
-                <li><a href="#">KDE</a></li>
-                <li><a href="#">IV Calc</a></li>
+        <li class="btn-group" dropdown>
+            <button id="single-button" type="button" class="btn btn-primary" dropdownToggle [disabled]="disabled">
+            Button dropdown <span class="caret"></span>
+            </button>
+            <ul dropdownMenu role="menu" aria-labelledby="single-button">
+            <li role="menuitem"><a class="dropdown-item" href="#">Senior Pet-Owners</a></li>
+            <li role="menuitem"><a class="dropdown-item" href="#">Mobile Email App</a></li>
             </ul>
         </li>
 
@@ -15,27 +16,29 @@
     </ul>
 </nav>
 
-<section class="content flex">
-    <div id="about-me-container">
-        <div class="header box-shadow">
-            <header class="name"> Jenn Chan </header>
-            <header class="title"> UX Designer + Software Developer </header>
-        </div>
+<div class="container">
+    <section class="content flex">
+        <div id="about-me-container">
+            <div class="header box-shadow">
+                <header class="name"> Jenn Chan </header>
+                <header class="title"> UX Designer + Software Developer </header>
+            </div>
 
-        <main id="about-container" class="flex"> 
-        <img src="../assets/images/jennchan.jpg" alt="Jenn Chan Image" id="about-img" class="box-shadow"/>
-            <article id="about-me" class="box-shadow">
-                <p>Hello!</p>
-                <p>I'm Jenn. I love web development, user experience design, 
-                    and usability testing&mdash;basically anything that would create happy users.</p>
-                <p>My website is currently under construction. Please check back later for more content
-                    and functional links.</p>
-                <p>:)</p>
-            </article>
-        </main>
-    </div>
-</section>
+            <main id="about-container" class="flex"> 
+                <img src="../assets/images/jennchan.jpg" alt="Jenn Chan Image" id="about-img" class="box-shadow"/>
+                <article id="about-me" class="box-shadow">
+                    <p>Hello!</p>
+                    <p>I'm Jenn. I love web development, user experience design, 
+                        and usability testing&mdash;basically anything that would create happy users.</p>
+                    <p>My website is currently under construction. Please check back later for more content
+                        and functional links.</p>
+                    <p>:)</p>
+                </article>
+            </main>
+        </div>
+    </section>
+</div>
 
 <footer>
-    &copy; Copyright 2016 by Jenn Chan using&nbsp;<a href="https://angular.io/">Angular 2</a>.
+    &copy; 2016 Design by Jenn Chan using&nbsp;<a href="https://angular.io/">Angular 2</a>.
 </footer>

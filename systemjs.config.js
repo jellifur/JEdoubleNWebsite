@@ -19,7 +19,8 @@
       // other libraries
       'rxjs':                       'npm:rxjs',
       'angular2-in-memory-web-api': 'npm:angular2-in-memory-web-api',
-      'ng2-bootstrap': 'npm:ng2-bootstrap'
+      'moment':                     'npm:moment',
+      'ng2-bootstrap':              'npm:ng2-bootstrap'
     },
     // packages tells the System loader how to load when no filename and/or no extension
     packages: {
@@ -32,6 +33,10 @@
       },
       'angular2-in-memory-web-api': {
         main: './index.js',
+        defaultExtension: 'js'
+      },
+      'moment': {
+        main: 'moment',
         defaultExtension: 'js'
       },
       'ng2-bootstrap': {
