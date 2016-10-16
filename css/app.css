@@ -10,11 +10,6 @@ nav a:focus, a:hover {
     color: #6775c4;
 }
 
-.container {
-  height: 100%;
-  width: 100%;
-}
-
 .nav>li>a {
 	padding: 10px 5px 3px 5px;
 	margin: 0 10px;
@@ -39,31 +34,5 @@ nav a:focus, a:hover {
 	margin-left: 10px;
   background-color: #FAFAFA;
 }
-
-#about-container { flex-wrap: wrap; }
-
-#about-me {
-	margin-top: 20px;
-	padding: 20px;
-	border-radius: 2px;
-	background-color: #FAFAFA;
-	color: #263238;
-  max-width: 500px;
-}
-
-#about-img {
-  display: none;
-}
-
-@media screen and (min-width: 700px) {
-  #about-img {
-    display: initial;
-	  border-radius: 2px;
-	  margin-top: 20px;
-    height: 300px;
-  }
-}
-
-#about-me-container { width: 700px; }
 
 /* Overwrite Bootstrap */

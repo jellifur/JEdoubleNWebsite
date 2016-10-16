@@ -9,9 +9,11 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
+var router_1 = require('@angular/router');
 var platform_browser_1 = require('@angular/platform-browser');
 var ng2_bootstrap_1 = require('ng2-bootstrap');
 var app_component_1 = require('./app.component');
+var aboutme_component_1 = require('./aboutme.component');
 var AppModule = (function () {
     function AppModule() {
     }
@@ -20,8 +22,14 @@ var AppModule = (function () {
             imports: [
                 platform_browser_1.BrowserModule,
                 ng2_bootstrap_1.DropdownModule,
+                router_1.RouterModule.forRoot([
+                    { path: '', component: aboutme_component_1.AboutMeComponent }
+                ])
             ],
-            declarations: [app_component_1.AppComponent],
+            declarations: [
+                app_component_1.AppComponent,
+                aboutme_component_1.AboutMeComponent
+            ],
             bootstrap: [app_component_1.AppComponent]
         }), 
         __metadata('design:paramtypes', [])
