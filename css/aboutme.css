@@ -6,19 +6,17 @@
     width: 100%;
 }
 
-#about-container { flex-wrap: wrap; }
 
 #about-me {
 	margin-top: 20px;
 	padding: 20px;
 	border-radius: 2px;
-	background-color: #FAFAFA;
-	color: #263238;
-    max-width: 500px;
-}
-
-#about-img {
-  display: none;
+	background-color: #455A64;
+	color: #FFFFFF;
+  opacity: 0.65;
+  max-width: 460px;
+  position: relative;
+  top: 20%;
 }
 
 @media screen and (min-width: 700px) {

@@ -17,6 +17,13 @@ body { background-color: #FAFAFA; }
   justify-content: center;
 }
 
+.space-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
 .header {
 	border-radius: 2px;
 	background-color: #34469E;
