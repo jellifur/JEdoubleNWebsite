@@ -2,21 +2,21 @@ nav {
   width: 100%;
   padding: 15px 40px;
   font-size: 14px;
-  background-color: #FFFFFF;
+  background-color: #FAFAFA;
   position: absolute;
   z-index: 999;
 }
 
-nav a { color: #607D8B; }
-nav a:focus, a:hover, nav .btn-primary:hover { color: #37474F; }
+nav a { color: #78909C; }
+nav a:focus, a:hover, nav .btn-primary:hover { color: #455A64; }
 nav .btn-primary { 
-  color: #607D8B;
+  color: #78909C;
   background-color: transparent;
   border: none;
   box-shadow: none;
 }
 nav .btn-primary:focus { 
-  color: #37474F;
+  color: #455A64;
   background-color: transparent;
   border: none;
   box-shadow: none;
@@ -35,7 +35,7 @@ nav .dropdown-menu {
 }
 
 #name {
-  color: #37474F;
+  color: #455A64;
 	font-size: 20px;
   min-width: 120px;
   margin-bottom: -3px;
@@ -57,13 +57,13 @@ nav .dropdown-menu {
 
 .nav>li>a:focus, .nav>li>a:hover { 
 	background-color: transparent;
-  color: #37474F;
+  color: #455A64;
 }
 
 .nav-pills>li>a { border-radius: 0; }
 
 .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
-  color: #37474F;
+  color: #455A64;
   background-color: transparent;
 }
 
