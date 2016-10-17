@@ -1,34 +1,8 @@
 body { background-color: #FAFAFA; }
 
-.flex { 
-	display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-}
-
 .box-shadow { box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23); }
 
-.content { 
-  align-items: center;
-  position: relative;
-  top: 5%;
-  justify-content: center;
-}
-
-.space-between {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-}
-
-.header {
-	border-radius: 2px;
-	background-color: #34469E;
-  color: white;
-	padding: 20px;
-  min-width: 300px;
-  display: inline-block;
+header { 
+  font-size: 20px; 
+  margin: 0 0 10px;
 }
