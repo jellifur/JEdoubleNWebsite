@@ -1,41 +1,27 @@
 <nav>
-    <ul class="nav nav-pills">
-        <li class="dropdown">
-            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Projects
-            <span class="caret"></span></a>
-            <ul class="dropdown-menu box-shadow">
-                <li><a href="#">KDE</a></li>
-                <li><a href="#">IV Calc</a></li>
-            </ul>
-        </li>
+    <div class="header-container">
+        <a id="name" routerLink="/">JENN CHAN</a>
+        <ul class="nav nav-pills">
+            <li class="btn-group" dropdown>
+                <button id="project-button" type="button" class="btn btn-primary" dropdownToggle [disabled]="disabled">
+                UX PROJECTS <span class="caret"></span>
+                </button>
+                <ul dropdownMenu role="menu" aria-labelledby="single-button">
+                <li role="menuitem"><a class="dropdown-item" href="#">Senior Pet-Owners</a></li>
+                <li role="menuitem"><a class="dropdown-item" href="#">Mobile Email App</a></li>
+                <li role="menuitem"><a class="dropdown-item" href="#">Data Visualization</a></li>
+                </ul>
+            </li>
 
-        <li role="presentation"><a href="/jenn_resume.pdf">Resume</a></li>
+            <li role="presentation"><a href="/jenn_resume.pdf">RESUME</a></li>
 
-        <li role="presentation"><a href="#">Contact</a></li>
-    </ul>
+            <li role="presentation"><a href="#">CONTACT</a></li>
+        </ul>
+    </div>
 </nav>
 
-<section class="content flex">
-    <div id="about-me-container">
-        <div class="header box-shadow">
-            <header class="name"> Jenn Chan </header>
-            <header class="title"> UX Designer + Software Developer </header>
-        </div>
+<router-outlet></router-outlet>
 
-        <main id="about-container" class="flex"> 
-        <img src="../assets/images/jennchan.jpg" alt="Jenn Chan Image" id="about-img" class="box-shadow"/>
-            <article id="about-me" class="box-shadow">
-                <p>Hello!</p>
-                <p>I'm Jenn. I love web development, user experience design, 
-                    and usability testing&mdash;basically anything that would create happy users.</p>
-                <p>My website is currently under construction. Please check back later for more content
-                    and functional links.</p>
-                <p>:)</p>
-            </article>
-        </main>
-    </div>
-</section>
-
-<footer>
-    &copy; Copyright 2016 by Jenn Chan using&nbsp;<a href="https://angular.io/">Angular 2</a>.
+<footer class="about-me-footer">
+    &copy; 2016 Design by Jenn Chan using&nbsp;<a href="https://angular.io/">Angular 2</a>.
 </footer>

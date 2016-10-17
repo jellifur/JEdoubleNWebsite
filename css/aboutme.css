@@ -1,0 +1,26 @@
+#about-me-container {
+    background-image: url("../assets/images/jenn_table.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+#about-me {
+	padding: 20px;
+	background-color: rgba(69,90,100, 0.65);
+  max-width: 460px;
+  position: relative;
+  top: 25%;
+  color: #FFFFFF; 
+}
+
+@media screen and (max-width: 550px) {
+  #about-me {
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    padding-top: 60px;
+  }
+}
