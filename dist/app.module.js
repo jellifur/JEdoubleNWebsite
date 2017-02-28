@@ -14,6 +14,7 @@ var platform_browser_1 = require('@angular/platform-browser');
 var ng2_bootstrap_1 = require('ng2-bootstrap');
 var app_component_1 = require('./app.component');
 var aboutme_component_1 = require('./aboutme.component');
+var petowner_component_1 = require('./petowner.component');
 var AppModule = (function () {
     function AppModule() {
     }
@@ -23,12 +24,14 @@ var AppModule = (function () {
                 platform_browser_1.BrowserModule,
                 ng2_bootstrap_1.DropdownModule,
                 router_1.RouterModule.forRoot([
+                    { path: 'pet-owner', component: petowner_component_1.PetOwnerComponent },
                     { path: '', component: aboutme_component_1.AboutMeComponent }
                 ])
             ],
             declarations: [
                 app_component_1.AppComponent,
-                aboutme_component_1.AboutMeComponent
+                aboutme_component_1.AboutMeComponent,
+                petowner_component_1.PetOwnerComponent
             ],
             bootstrap: [app_component_1.AppComponent]
         }), 
