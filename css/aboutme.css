@@ -2,8 +2,7 @@
     background-image: url("../assets/images/jenn_table.png");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100%;
-    width: 100%;
+    height: 92vh;
 }
 
 #about-me {
@@ -23,4 +22,15 @@
     top: 0;
     padding-top: 60px;
   }
+
+  #about-me-container { height: 89vh; }
+}
+
+.about-me-footer a { color: #ffffff; }
+
+.about-me-footer {
+  position: fixed;
+  bottom: 0;
+  color: #ffffff;
+  z-index: 999;
 }

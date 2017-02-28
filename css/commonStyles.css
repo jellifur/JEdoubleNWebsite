@@ -6,3 +6,11 @@ header {
   font-size: 20px; 
   margin: 0 0 10px;
 }
+
+footer { 
+  font-size: 12px; 
+  padding: 5px 10px;
+}
+
+.content-footer a { color:  #616161; }
+.content-footer { color: #616161; }

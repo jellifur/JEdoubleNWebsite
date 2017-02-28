@@ -40,7 +40,6 @@ jspm_packages
 typings
 
 # js files transcribed from typescript
-app/*.js
-app/*.js.map
+dist/
 
 .DS_Store

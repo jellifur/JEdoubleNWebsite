@@ -6,6 +6,7 @@ import { DropdownModule } from 'ng2-bootstrap';
 
 import { AppComponent }   from './app.component';
 import { AboutMeComponent }   from './aboutme.component';
+import { PetOwnerComponent }   from './petowner.component';
 
 @NgModule({
   imports: [ 
@@ -13,6 +14,7 @@ import { AboutMeComponent }   from './aboutme.component';
     DropdownModule,
 
     RouterModule.forRoot([
+      { path: 'pet-owner', component: PetOwnerComponent },
       { path: '', component: AboutMeComponent }
     ])
 
@@ -20,7 +22,8 @@ import { AboutMeComponent }   from './aboutme.component';
 
   declarations: [ 
     AppComponent,
-    AboutMeComponent
+    AboutMeComponent,
+    PetOwnerComponent
   ],
 
   bootstrap:    [ AppComponent ]

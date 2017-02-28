@@ -3,7 +3,6 @@ nav {
   padding: 15px 40px;
   font-size: 14px;
   background-color: #FAFAFA;
-  position: absolute;
   z-index: 999;
 }
 
@@ -76,20 +75,4 @@ nav .dropdown-menu {
     display: flex;
     justify-content: center;
   }
-}
-
-
-footer { 
-  font-size: 12px; 
-  padding: 5px 10px;
-}
-
-footer a { color: #ffffff; }
-
-.about-me-footer {
-  position: fixed;
-  bottom: 0;
-  color: #ffffff;
-  z-index: 999;
-  text-shadow: 1px 1px #757575;
 }
